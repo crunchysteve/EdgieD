@@ -1,5 +1,5 @@
 # EdgieD Library v1.0
-### Written by Crunchysteve, 19 September, 2022.
+### &copy;Crunchysteve, 19 September, 2022.
 
 Based on the button edge detection tutorial at...
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection
