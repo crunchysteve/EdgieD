@@ -8,9 +8,7 @@
 #include "Arduino.h"
 #include "EdgieD.h"
 
-Edge::Edge(){
-  
-}
+Edge::Edge(){}
 
 int Edge::detect(int state, int oldState, int edge){
   this->state = state;
