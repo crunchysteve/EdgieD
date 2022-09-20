@@ -22,4 +22,4 @@ For example...
 The [Quick Start](https://github.com/crunchysteve/EdgieD/wiki/Quick-Start) guide is available on the Wiki, as is the more detailed [Documentation](https://github.com/crunchysteve/EdgieD/wiki/Documentation).
 
 ### Licence
-The EdgieD Library is free software, please see ["licence.txt"](https://github.com/crunchysteve/EdgieD/blob/main/LICENSE). for more details.
+The EdgieD Library is free software, please see ["LICENCE"](https://github.com/crunchysteve/EdgieD/blob/main/LICENSE). for more details.
