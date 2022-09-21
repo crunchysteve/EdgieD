@@ -16,8 +16,11 @@ This custom library compares the states of an input, a variable or output from a
 For example...
   * Include the EdgieD library header, <EdgieD.h>, 
   * initialise an instance, Edge myEdge;, 
-  * then call the instance, myEdge.detect(current,previous,LEADING), 
-  * to trigger a function as the rising edge is detected.
+  * then call the instance, ```if(myEdge.detect(current,previous,LEADING){ //  do something }``` 
+    * (if a rising edge has been detected, the functions inside the if statement run)
+  * after the instance runs, set oldState to the currently tested state, ready for the next test.
+
+EdgieD is non-blocking and only takes as long as its lines of code to run.
 
 The [Quick Start](https://github.com/crunchysteve/EdgieD/wiki/Quick-Start) guide is available on the Wiki, as is the more detailed [Documentation](https://github.com/crunchysteve/EdgieD/wiki/Documentation).
 
