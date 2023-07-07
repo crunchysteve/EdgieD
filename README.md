@@ -1,3 +1,5 @@
+[Discuss the code or seek support for any of my code projects at my discussions page.](https://github.com/crunchysteve/crunchysteve.github.io/discussions)
+***
 # EdgieD Library v1.0
 ##### Crunchysteve, &copy;2022.
 
