@@ -11,6 +11,7 @@ PlatformIO, download the zip and install
 in your libraries folder the usual way or
 use git in the Terminal.
 
+## What is EdgieD?
 Based on the button edge detection tutorial at...
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection
 but generalised for working with variables and other coded binary state
