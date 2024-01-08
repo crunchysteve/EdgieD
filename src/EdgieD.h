@@ -17,13 +17,12 @@
 
     private:
       int state;
-      int oldState;
       int edge;
 
     public:
       Edge();
       int detect(int state, int oldState, int edge);
-      
+      int oldState;
   };
 
 #endif
