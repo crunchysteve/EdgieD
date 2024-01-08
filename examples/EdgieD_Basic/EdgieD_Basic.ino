@@ -46,6 +46,6 @@ void loop() {
     Serial.print("The LED state is ");
     Serial.println(ledState);       //  Print the state of the LED.
   }
-  oldButtonState = buttonState;     //  Store the latest button reading
+  oldButtonState = myEdge.oldState; //  Store the latest button reading
   digitalWrite(ledPin,ledState);    //  Write the ledState to the LED
 }

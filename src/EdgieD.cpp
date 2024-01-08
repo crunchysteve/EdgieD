@@ -15,9 +15,12 @@ int Edge::detect(int state, int oldState, int edge){
   this->oldState = oldState;
   this->edge = edge;
   
-  if(state != oldState && state == edge){
-    return true;
-  } else {
-    return false;
+  if(state != oldState){
+    state == edge){
+      return true;
+    } else {
+      return false;
+    }
+    oldState = state;
   } 
 }
