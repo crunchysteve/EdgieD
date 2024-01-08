@@ -20,9 +20,9 @@
       int edge;
 
     public:
+      int oldState;
       Edge();
       int detect(int state, int oldState, int edge);
-      int oldState;
   };
 
 #endif
