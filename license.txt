@@ -1,6 +1,6 @@
-MIT License
+MIT License - EdgieD: a General State-Change/Edge-Detection Library for Microcontrollers
 
-Copyright (c) 2022 Crunchysteve
+Copyright (c) 2024 Crunchysteve
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
