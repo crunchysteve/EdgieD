@@ -1,6 +1,6 @@
 [Discuss the code or seek support for any of my code projects at my discussions page.](https://github.com/crunchysteve/crunchysteve.github.io/discussions)
 ***
-# EdgieD Library v2.0.0
+# EdgieD Library v1.0.0
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed and tested in VS Code and Wokwi.com
 
