@@ -37,7 +37,6 @@ void loop() {                                       // main program loop
                                                     //  also takes macros 'Rising' or 'Falling'
                                                     //  optionally after token
 
-  delay(100);                                       //  20mS delay to make the detection visible
+  delay(20);                                        //  20mS delay to make the LED visible
                                                     //  Would leave this out in normal usage
-                                        //  (Will have setting var and timing to extend pulswidth)
 }
