@@ -4,10 +4,8 @@
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
 
-Captain's Log (supplemental): Just tried to understand Arduino's Library Manager submission process, in order to get this WORKING update to replace the original BROKEN one and I can't even submit a removal of the library. JESUS! This is why I switched to PlatformIO as my editor. Not only does it have more features, it's actually project focused in how you set it up and adding a third-party, custom library is simply a matter of adding that library's git URL to platformio.ini as a lib-dep. Sorry, ArduinoIDE peeps, You'll have to install this working version manually, from now on.
-
 ## Quick Install
-For most people, download [this zip file](https://github.com/crunchysteve/EdgieD/releases/download/ArduinoLibrary-update/EdgieD_1.0.0.zip), open **ArduinoIDE**, open the ```Sketch/Include Library/Add .ZIP Library``` menu, navigate to where you downloaded the zip, and click "Install."
+For most people, download [this zip file](https://github.com/crunchysteve/EdgieD/releases/download/ArduinoLibrary-update/EdgieD_1.0.0.zip), open **ArduinoIDE**, open the ```Sketch/Include Library/Add .ZIP Library``` menu, navigate to where you downloaded the zip, and click "Install." I've given up on Arduino's library submission process. I'm going to admit, I'm still learning this git stuff, and I'm both fascinated with it and utterly flabbergasted at the mind boggling complexity of it all at once. Platform IO, a professional microcontroller dev tool, makes libraries easy to include, for both the user and the end user. Using a hardcore coder's tool for Arduino library submission, when the main market for Arduino is hobbyists and makers, seems wired to me. Anyway, rant over.
 
 For **PlatformIO**, update ```~/[your_project/]/platformio.ini``` lib_deps parammeter to include ```https://github.com/crunchysteve/EdgieD-1.0.0.git```
 
