@@ -2,7 +2,7 @@
 ***
 # EdgieD Library v1.0.0
 ##### Crunchysteve, &copy;2024.
-##### Proudly developed by an Apple fanboi and tested in [VS Code](https://code.visualstudio.com/) and [Wokwi](Wokwi.com)
+##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
 
 Captain's Log (supplemental): Just tried to understand Arduino's Library Manager submission process, in order to get this WORKING update to replace the original BROKEN one and I can't even submit a removal of the library. JESUS! This is why I switched to PlatformIO as my editor. Not only does it have more features, it's actually project focused in how you set it up and adding a third-party, custom library is simply a matter of adding that library's git URL to platformio.ini as a lib-dep. Sorry, ArduinoIDE peeps, You'll have to install this working version manually, from now on.
 
