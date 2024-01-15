@@ -4,22 +4,25 @@
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed and tested in VS Code and Wokwi.com
 
+Captain's Log (supplemental): Just tried to understand Arduino's Library Manager submission process, in order to get this WORKING update to replace the original BROKEN one and I can't even submit a removal of the library. JESUS! This is why I switched to PlatformIO as my editor. Not only does it have more features, it's actually project focused in how you set it up and adding a third-party, custom library is simply a matter of adding that library's git URL to platformio.ini as a lib-dep. Sorry, ArduinoIDE peeps, You'll have to install this working version manually, from now on.
+
 ## Quick Install
-For most people, open ArduinoIDE, open the Library Manager, search EdgieD and click "Install." For tools like PlatformIO, download the zip and update lib_deps to "https://github.com/crunchysteve/EdgieD-1.0.0.git". Now it's actually working properly, I'm going to look into adding it to the PIO
-registry, too.
+For most people, download [this zip file](https://github.com/crunchysteve/EdgieD/releases/download/ArduinoLibrary-update/EdgieD_1.0.0.zip), open **ArduinoIDE**, open the ```Sketch/Include Library/Add .ZIP Library``` menu, navigate to where you downloaded the zip, and click "Install."
+
+For **PlatformIO**, update ```~/[your_project/]/platformio.ini``` lib_deps parammeter to include ```https://github.com/crunchysteve/EdgieD-1.0.0.git```
 
 ## What is EdgieD?
 Loosely based on the button edge detection tutorial at...
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection
 
-but generalised for working with variables and other coded binary state changes. It can read digital inputs to detect a button state change, the state change of a variable during runtime, the output state of a timer or the output states of other custom libraries.
+...but generalised for working with variables and other coded binary state changes. It can read digital inputs to detect a button state change, the state change of a variable during runtime, the output state of a timer or the output states of other custom libraries.
 
 The included example detects the default "leading edge" (as pressed) of a button, attached between pin 2 and ground, not changing output state again until released, then pressed again.
 
 It can be used for...
   1. timing functions to repeat on a trigger input,
   2. debouncing input buttons (use delay() around 5 to 20mS in your test "if()")
-  3. synchronising output signals to input signals.
+  3. synchronising output signals to input signals, such as triggering a sinusoid function to run one phase, in sync with the triggering edge of the input. (I'll add that as an example sketch soon, hopefully.)
 
 These are just a few examples!
 
