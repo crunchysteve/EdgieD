@@ -8,7 +8,7 @@
 //  http://github.com/crunchysteve/EdgieD
 
 #include "Arduino.h"                      //  include necessary arduino frameworks
-#include "EdgieD-1.0.0.h"                       //  include library prototype
+#include "EdgieD.h"                       //  include library prototype
 
 bool Edge::previousTest = Rising;         //  initialise previous test to false
 
