@@ -41,7 +41,7 @@ See the included example, EdgieD_Basic.ino for more details.
 
 EdgieD is non-blocking and only takes as long as its lines of code to run.
 
-The [Quick Start](https://github.com/crunchysteve/EdgieD/wiki/Quick-Start) guide is available on the wiki, as is the more detailed [Documentation](https://github.com/crunchysteve/EdgieD/wiki/Documentation).
+The [Quick Start](https://github.com/crunchysteve/EdgieD/wiki/Quick-Start) guide is available on the wiki, as is the more detailed [Documentation](https://github.com/crunchysteve/EdgieD/wiki/Documentation) and feature roadmap.
 
 ### Licence
 The EdgieD Library is free software, please see ["LICENCE"](https://github.com/crunchysteve/EdgieD/blob/main/LICENSE). for more details.
