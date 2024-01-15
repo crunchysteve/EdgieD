@@ -5,7 +5,7 @@
 ##### Proudly developed and tested in VS Code and Wokwi.com
 
 ## Quick Install
-For most people, open ArduinoIDE, open the Library Manager, search EdgieD and click "Install." For tools like PlatformIO, download the zip and install in your libraries folder the usual way or use git in the Terminal. Now it's actually working properly, I'm going to look into adding it to the PIO
+For most people, open ArduinoIDE, open the Library Manager, search EdgieD and click "Install." For tools like PlatformIO, download the zip and update lib_deps to "https://github.com/crunchysteve/EdgieD-1.0.0.git". Now it's actually working properly, I'm going to look into adding it to the PIO
 registry, too.
 
 ## What is EdgieD?
