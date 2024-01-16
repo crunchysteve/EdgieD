@@ -1,5 +1,3 @@
-[Discuss the code or seek support for any of my code projects at my discussions page.](https://github.com/crunchysteve/crunchysteve.github.io/discussions)
-***
 # EdgieD Library v1.0.0
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
