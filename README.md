@@ -1,4 +1,4 @@
-# EdgieD Library v1.0.0
+# EdgieD Library v1.0.1
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
 
