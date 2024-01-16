@@ -5,7 +5,13 @@
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
 
 ## Quick Install
-For most people, download [this zip file](https://github.com/crunchysteve/EdgieD/releases/download/ArduinoLibrary-update/EdgieD_1.0.0.zip), open **ArduinoIDE**, open the ```Sketch/Include Library/Add .ZIP Library``` menu, navigate to where you downloaded the zip, and click "Install." I've given up on Arduino's library submission process. I'm going to admit, I'm still learning this git stuff, and I'm both fascinated with it and utterly flabbergasted at the mind boggling complexity of it all at once. Platform IO, a professional microcontroller dev tool, makes libraries easy to include, for both the user and the end user. Using a hardcore coder's tool for Arduino library submission, when the main market for Arduino is hobbyists and makers, seems wired to me. Anyway, rant over.
+For most people, use the Arduino Library Manager in Arduino IDE but...
+  1. if you strike problems, go to release 1.0.1, 
+  2. download your preference of achive, open **ArduinoIDE**, 
+  3. open the ```Sketch/Include Library/Add .ZIP Library``` menu, 
+  4. navigate to where you downloaded the zip, and click "Install". 
+
+I'm still learning this git stuff, I'm a hobbyist coder trying to leave my mark, and I'm both fascinated with git and utterly flabbergasted at the mind boggling complexity of git all at once. A huge thanks to @per1234 for their patient guidance through getting my library updated. I was getting quite "flappy" for a while there, they never gave up on helping me understand. (As of 20240116@1050, I have everything crossed that I've got it right at last. 24 hours or so should tell me.)
 
 For **PlatformIO**, update ```~/[your_project/]/platformio.ini``` lib_deps parammeter to include ```https://github.com/crunchysteve/EdgieD-1.0.0.git```
 
