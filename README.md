@@ -9,11 +9,11 @@ For most people, use the Arduino Library Manager in Arduino IDE but...
   1. if you strike problems, go to release 1.0.1, 
   2. download your preference of achive, open **ArduinoIDE**, 
   3. open the ```Sketch/Include Library/Add .ZIP Library``` menu, 
-  4. navigate to where you downloaded the zip, and click "Install". 
-
-I'm still learning this git stuff, I'm a hobbyist coder trying to leave my mark, and I'm both fascinated with git and utterly flabbergasted at the mind boggling complexity of git all at once. A huge thanks to @per1234 for their patient guidance through getting my library updated. I was getting quite "flappy" for a while there, they never gave up on helping me understand. (As of 20240116@1050, I have everything crossed that I've got it right at last. 24 hours or so should tell me.)
+  4. navigate to where you downloaded the zip, and click "Install".
 
 For **PlatformIO**, update ```~/[your_project/]/platformio.ini``` lib_deps parammeter to include ```https://github.com/crunchysteve/EdgieD-1.0.0.git```
+
+I'm still learning this git stuff, I'm a hobbyist coder trying to leave my mark, and I'm both fascinated with git and utterly flabbergasted at the mind boggling complexity of git all at once. A huge thanks to @per1234 for their patient guidance through getting my library updated. I was getting quite "flappy" for a while there, they never gave up on helping me understand. (As of 20240116@1050, I have everything crossed that I've got it right at last. 24 hours or so should tell me.)
 
 ## What is EdgieD?
 Loosely based on the button edge detection tutorial at...
