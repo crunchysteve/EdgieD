@@ -4,6 +4,11 @@
 
 **ALERT** - It's been brougfht to my attention that, in an incremental update earlier this year, EdgieD stopped working as multi object code and now only works as a "singleton." Finding this bug is taxing my limited skill. Yeah, that's how we learn I guess, meanwhile, I feel obbliged to recommend people use [Bounce2](https://github.com/thomasfredericks/Bounce2), [Bugtton](https://github.com/sakabug/Bugtton) or similar. My apologies. As an amateur and self taught coder, I can't promise a repair will be quick. Hopefully I can get my head around this monster I've created.
 
+I'm also not too proud to ask for help. If anybody can see what I've done wrong and explain it for a "bear of little brain" I will be eternally grateful, even if, like John Cleese's grumpy centurian, you make me write it out 100 times before dawn...
+
+Apologies,
+Crunchy
+
 ---
 
 ## Quick Install
