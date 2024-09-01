@@ -2,6 +2,10 @@
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
 
+**ALERT** - It's been brougfht to my attention that, in an incremental update earlier this year, EdgieD stopped working as multi object code and now only works as a "singleton." Finding this bug is taxing my limited skill. Yeah, that's how we learn I guess, meanwhile, I feel obbliged to recommend people use [Bounce2](https://github.com/thomasfredericks/Bounce2), [Bugtton](https://github.com/sakabug/Bugtton) or similar. My apologies. As an amateur and self taught coder, I can't promise a repair will be quick. Hopefully I can get my head around this monster I've created.
+
+---
+
 ## Quick Install
 For most people, use the Arduino Library Manager in Arduino IDE but...
   1. if you strike problems, go to release 1.0.1, 
