@@ -1,3 +1,7 @@
+# Developer's Final Note
+
+I've been trying to make the work for multiple edges and I give up. Because it's actually a recognised Arduino library I won't delete it, but I'm making it a public archive. If you want to take a crack at giving it multitasking, feel free to fork it and take over.
+
 # EdgieD Library v1.0.1
 ##### Crunchysteve, &copy;2024.
 ##### Proudly developed in [VS Code](https://code.visualstudio.com/), by an Apple fanboi, and tested in [Wokwi](Wokwi.com)
